@@ -6,7 +6,7 @@ Caml is a general-purpose programming language, designed with program safety and
 ## GitHub notes
 
 Setting a new GitHub remote repository : https://help.github.com/en/github/using-git/adding-a-remote
-'''
+```
 $ git remote add origin https://github.com/username/repositoryname.git
 $ git remote -v
-'''
+```
