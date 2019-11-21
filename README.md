@@ -19,7 +19,7 @@ $ git status
 
 If the **_refusing to merge unrelated histories_** shown due to the changing name of the working directory on the local machine, then execute this commands.
 ```
-$ git pull --allow-unrelated-histories
+$ git pull origin master --allow-unrelated-histories
 ```
 
 
