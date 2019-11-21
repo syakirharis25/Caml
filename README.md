@@ -12,8 +12,8 @@ Caml is a general-purpose programming language, designed with program safety and
 OCaml also known as Objective Caml is the main implementation of the Caml programming language, created in 1996 by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez, and others. It extends Caml with object-oriented features, and is a member of the ML family. OCaml is a general purpose programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria by a group of leading researchers, it has an advanced type system that helps catch your mistakes without getting in your way. It's used in environments where a single mistake can cost millions and speed matters, is supported by an active community, and has a rich set of libraries and development tools.
 
 ## Official references websites
-Official Caml website : https://caml.inria.fr
-Official OCaml website : https://ocaml.org
+Official Caml website : https://caml.inria.fr <br />
+Official OCaml website : https://ocaml.org <br />
 Official Inria website : https://www.inria.fr
 
 Official OCaml download website : https://ocaml.org/docs/install.html
