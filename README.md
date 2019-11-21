@@ -1,7 +1,7 @@
 # Caml
 My works related to Categorical Abstract Machine Language (Caml) programming language.
-
-<img src="Caml-1.gif" height="50"> <br /> <br /> <br /> <br /> <br />
+<br /> <br />
+<img src="Caml-1.gif" height="50"> 
 
 Caml is a general-purpose programming language, designed with program safety and reliability in mind. It is very expressive, yet easy to learn and use. Caml supports functional, imperative, and object-oriented programming styles. It has been developed and distributed by INRIA, a French research institute in computer science and applied mathematics, since 1985.
 
@@ -32,6 +32,13 @@ $ git add <file>
 $ git commit -m "message or remarks about the action done"
 $ git push origin
 $ git status
+```
+
+Adding new line, non-breaking space in GitHub README.md
+```
+a <br />
+b <br />
+c
 ```
 
 Refer to https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for GitHub markdown formatting.
