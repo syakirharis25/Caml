@@ -4,7 +4,7 @@ My works related to Categorical Abstract Machine Language (Caml) programming lan
 
 <img src="Caml-1.gif" height="50"> 
 
-Caml is a general-purpose programming language, designed with program safety and reliability in mind. It is very expressive, yet easy to learn and use. Caml supports functional, imperative, and object-oriented programming styles. It has been developed and distributed by INRIA, a French research institute in computer science and applied mathematics, since 1985.
+Caml is a general-purpose programming language, designed with program safety and reliability in mind. It is very expressive, yet easy to learn and use. Caml supports functional, imperative, and object-oriented programming styles. It has been developed and distributed by INRIA, a French research institute in computer science and applied mathematics, since 1985. Caml comes from ML and CAM which is the categorical abstract machine: a virtual machine inspired by Cartesian closed categories.
 <br /> <br />
 
 <img src="OCaml-wiki.svg.png" height="50">
@@ -14,6 +14,10 @@ OCaml also known as Objective Caml is the main implementation of the Caml progra
 
 <img src="inria.svg" height="100">
 Institut national de recherche en informatique et en automatique (Inria), in English, The National Institute for Research in Computer Science and Automation, is a French national research institution focusing on computer science and applied mathematics. It was created under the name Institut de recherche en informatique et en automatique (IRIA) in 1967 at Rocquencourt near Paris, part of Plan Calcul,  French governmental program to promote a national or European computer industry and associated research and education activities. Its first site was the historical premises of SHAPE (central command of NATO military forces). In 1979 IRIA became INRIA. Since 2011, it has been styled Inria. Inria is a Public Scientific and Technical Research Establishment (EPST) under the double supervision of the French Ministry of National Education, Advanced Instruction and Research and the Ministry of Economy, Finance and Industry.
+
+## The story of development of Caml and Ocaml programming languages in Inria
+<rocet>
+<Ada>
 
 ## Official references websites
 Official Caml website : https://caml.inria.fr <br />
