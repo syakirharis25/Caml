@@ -5,15 +5,10 @@ Caml is a general-purpose programming language, designed with program safety and
 
 ## GitHub notes
 
-Adding a new GitHub remote repository : https://help.github.com/en/github/using-git/adding-a-remote
-```
-$ git init
-$ git remote add origin https://github.com/syakirharis25/Caml.git
-$ git remote -v
-```
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Caml.git
+$ git remote -v
 $ git status
 ```
 
@@ -21,7 +16,6 @@ If the **_refusing to merge unrelated histories_** shown due to the changing nam
 ```
 $ git pull origin master --allow-unrelated-histories
 ```
-
 
 If there is any changes in the GitHub (remote) repository, first we need to pull the changes into our local machine, before adding the new contents into GitHub.
 ```
