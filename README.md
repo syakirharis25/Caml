@@ -5,8 +5,20 @@ Caml is a general-purpose programming language, designed with program safety and
 
 ## GitHub notes
 
-Setting a new GitHub remote repository : https://help.github.com/en/github/using-git/adding-a-remote
+Adding a new GitHub remote repository : https://help.github.com/en/github/using-git/adding-a-remote
 ```
-$ git remote add origin https://github.com/username/repositoryname.git
+$ git init
+$ git remote add origin https://github.com/syakirharis25/Caml.git
 $ git remote -v
+```
+
+If there is any changes in the GitHub (remote) repository, first we need to pull the changes into our local machine, before adding the new content into GitHub
+```
+$ git status
+$ git remote -v
+$ git pull origin master
+$ git add <file>
+$ git commit -m "message or remarks about the action done"
+$ git push origin
+$ git status
 ```
