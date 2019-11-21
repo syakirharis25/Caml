@@ -11,8 +11,13 @@ $ git init
 $ git remote add origin https://github.com/syakirharis25/Caml.git
 $ git remote -v
 ```
+Clone the current GitHub remote repository contents into local machine, if not it will show **_refusing to merge unrelated histories_** error message.
+```
+$ git clone https://github.com/syakirharis25/Caml.git
+$ git status
+```
 
-If there is any changes in the GitHub (remote) repository, first we need to pull the changes into our local machine, before adding the new content into GitHub
+If there is any changes in the GitHub (remote) repository, first we need to pull the changes into our local machine, before adding the new contents into GitHub.
 ```
 $ git status
 $ git remote -v
@@ -22,3 +27,5 @@ $ git commit -m "message or remarks about the action done"
 $ git push origin
 $ git status
 ```
+
+Refer to https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for GitHub markdown formatting.
