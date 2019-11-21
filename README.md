@@ -1,8 +1,12 @@
 # Caml
 My works related to Categorical Abstract Machine Language (Caml) programming language.
 
-<img src="Caml-1.gif" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+<img src="Caml-1.gif" height="50"> 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 Caml is a general-purpose programming language, designed with program safety and reliability in mind. It is very expressive, yet easy to learn and use. Caml supports functional, imperative, and object-oriented programming styles. It has been developed and distributed by INRIA, a French research institute in computer science and applied mathematics, since 1985.
 
 <img src="OCaml-wiki.svg.png" height="50">
