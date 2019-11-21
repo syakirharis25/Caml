@@ -23,6 +23,8 @@ Official Inria website : https://www.inria.fr
 Official OCaml download website : https://ocaml.org/docs/install.html
 Official OCaml download website for Microsoft Windows operating system : https://www.typerex.org/ocpwin.html
 
+OCaml tutorials : https://ocaml.org/learn/tutorials
+
 ## GitHub notes
 
 Clone the current GitHub remote repository contents into local machine.
