@@ -11,11 +11,17 @@ $ git init
 $ git remote add origin https://github.com/syakirharis25/Caml.git
 $ git remote -v
 ```
-Clone the current GitHub remote repository contents into local machine, if not it will show **_refusing to merge unrelated histories_** error message.
+Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Caml.git
 $ git status
 ```
+
+If the **_refusing to merge unrelated histories_** shown due to the changing name of the working directory on the local machine, then execute this commands.
+```
+$ git pull --allow-unrelated-histories
+```
+
 
 If there is any changes in the GitHub (remote) repository, first we need to pull the changes into our local machine, before adding the new contents into GitHub.
 ```
