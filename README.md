@@ -25,6 +25,8 @@ Official OCaml download website for Microsoft Windows operating system : https:/
 
 OCaml tutorials : https://ocaml.org/learn/tutorials
 
+Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
+
 ## GitHub notes
 
 Clone the current GitHub remote repository contents into local machine.
