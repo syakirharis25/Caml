@@ -32,7 +32,8 @@ Official Inria website : https://www.inria.fr
 Official OCaml download website : https://ocaml.org/docs/install.html <br />
 Official OCaml download website for Microsoft Windows operating system : https://www.typerex.org/ocpwin.html
 
-OCaml tutorials : https://ocaml.org/learn/tutorials
+OCaml tutorials : https://ocaml.org/learn/tutorials <br />
+Online OCaml playground : https://try.ocamlpro.com
 
 Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
 
