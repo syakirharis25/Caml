@@ -3,7 +3,10 @@ My works related to Categorical Abstract Machine Language (Caml) programming lan
 <br /> <br />
 
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Introduction.](#introduction)
+2. [Official references websites.](#references)
+3. [OCaml compiler.](#compiler)
+4. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## Introduction
@@ -20,6 +23,7 @@ OCaml also known as Objective Caml is the main implementation of the Caml progra
 <img src="inria.svg" height="100">
 Institut national de recherche en informatique et en automatique (Inria), in English, The National Institute for Research in Computer Science and Automation, is a French national research institution focusing on computer science and applied mathematics. It was created under the name Institut de recherche en informatique et en automatique (IRIA) in 1967 at Rocquencourt near Paris, part of Plan Calcul,  French governmental program to promote a national or European computer industry and associated research and education activities. Its first site was the historical premises of SHAPE (central command of NATO military forces). In 1979 IRIA became INRIA. Since 2011, it has been styled Inria. Inria is a Public Scientific and Technical Research Establishment (EPST) under the double supervision of the French Ministry of National Education, Advanced Instruction and Research and the Ministry of Economy, Finance and Industry.
 
+<a name="references"</a>
 ## Official references websites
 Official Caml website : https://caml.inria.fr <br />
 Official OCaml website : https://ocaml.org <br />
@@ -32,6 +36,7 @@ OCaml tutorials : https://ocaml.org/learn/tutorials
 
 Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
 
+<a name=compiler></compiler>
 ## OCaml compiler
 **ocamlc** is the bytecode compiler, and **ocamlopt** is the native code compiler. If you don't know which one to use, use ocamlopt since it provides standalone executables that are normally faster than bytecode. The **-o** command specify the name of the output file produced by the linker. The default output name is **_a.out_** under Unix and **_camlprog.exe_** under Windows. **_.cmi_** files are intermediate (interface) files which are compiled forms of the **_.ml_** file. **_.cmo_** is the	object file (bytecode). **_.cmx_** is produced by ocamlopt (the native-code compiler). Main output files of ocamlopt is **_.o_** but ocamlopt also produce it.
 
@@ -50,8 +55,8 @@ In Microsoft Windows system, OCaml commands can be found inside **C:\Users\usern
 
 Reference : https://caml.inria.fr/pub/docs/manual-ocaml/native.html, 
 
+<a name="github"></a>
 ## GitHub notes
-
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Caml.git
