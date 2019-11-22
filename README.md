@@ -5,8 +5,10 @@ My works related to Categorical Abstract Machine Language (Caml) programming lan
 ## Table of Contents
 1. [Introduction.](#introduction)
 2. [Official references websites.](#references)
-3. [OCaml compiler.](#compiler)
-4. [GitHub notes.](#github)
+3. [OCaml location.](#location)
+4. [OCaml version.](#version)
+5. [OCaml compiler.](#compiler)
+6. [GitHub notes.](#github)
 
 <a name="introduction"></a>
 ## Introduction
@@ -37,7 +39,23 @@ Online OCaml playground : https://try.ocamlpro.com
 
 Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
 
-<a name=compiler></compiler>
+<a name=location></a>
+## OCaml location
+
+To check the location of where OCaml installed in the machine, type this code.
+```
+$ which ocaml
+```
+
+<a name="version"></a>
+## OCaml version
+
+To check the version of OCaml installed in the machine, type this code.
+```
+$ ocaml -version
+```
+
+<a name="compiler"></compiler>
 ## OCaml compiler
 **ocamlc** is the bytecode compiler, and **ocamlopt** is the native code compiler. If you don't know which one to use, use ocamlopt since it provides standalone executables that are normally faster than bytecode. The **-o** command specify the name of the output file produced by the linker. The default output name is **_a.out_** under Unix and **_camlprog.exe_** under Windows. **_.cmi_** files are intermediate (interface) files which are compiled forms of the **_.ml_** file. **_.cmo_** is the	object file (bytecode). **_.cmx_** is produced by ocamlopt (the native-code compiler). Main output files of ocamlopt is **_.o_** but ocamlopt also produce it.
 
