@@ -28,7 +28,7 @@ OCaml tutorials : https://ocaml.org/learn/tutorials
 Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
 
 ## OCaml compiler
-**ocamlc** is the bytecode compiler, and **ocamlopt** is the native code compiler. If you don't know which one to use, use ocamlopt since it provides standalone executables that are normally faster than bytecode. The **-o** command specify the name of the output file produced by the linker. The default output name is a.out under Unix and camlprog.exe under Windows. **_.cmi_** files are intermediate (interface) files which are compiled forms of the **_.ml_** file. **_.cmo_** is the	object file (bytecode). .cmx is produced by ocamlopt (the native-code compiler). Main output files of ocamlopt is .o but ocamlopt also produce it.
+**ocamlc** is the bytecode compiler, and **ocamlopt** is the native code compiler. If you don't know which one to use, use ocamlopt since it provides standalone executables that are normally faster than bytecode. The **-o** command specify the name of the output file produced by the linker. The default output name is **_a.out_** under Unix and **_camlprog.exe_** under Windows. **_.cmi_** files are intermediate (interface) files which are compiled forms of the **_.ml_** file. **_.cmo_** is the	object file (bytecode). **_.cmx_** is produced by ocamlopt (the native-code compiler). Main output files of ocamlopt is **_.o_** but ocamlopt also produce it.
 
 **ocamlc** (bytecode compiler) implementation command.
 ```
