@@ -2,6 +2,11 @@
 My works related to Categorical Abstract Machine Language (Caml) programming language.
 <br /> <br />
 
+## Table of Contents
+1. [Introduction](#introduction)
+
+<a name="introduction"></a>
+## Introduction
 <img src="Caml-1.gif" height="50"> 
 
 Caml is a general-purpose programming language, designed with program safety and reliability in mind. It is very expressive, yet easy to learn and use. Caml supports functional, imperative, and object-oriented programming styles. It has been developed and distributed by INRIA, a French research institute in computer science and applied mathematics, since 1985. Caml comes from ML and CAM which is the categorical abstract machine: a virtual machine inspired by Cartesian closed categories.
