@@ -45,6 +45,7 @@ Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, htt
 $ ocamlc -o filename filename.ml
 $ ocamlrun filename
 ```
+**ocamlc** command will create filename.cmi and filename.cmo files.
 
 **ocamlopt** (native code compiler) implementation command.
 ```
