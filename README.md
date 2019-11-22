@@ -27,6 +27,24 @@ OCaml tutorials : https://ocaml.org/learn/tutorials
 
 Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
 
+## OCaml compiler
+**ocamlc** is the bytecode compiler, and **ocamlopt** is the native code compiler. If you don't know which one to use, use ocamlopt since it provides standalone executables that are normally faster than bytecode. The **-o** command specify the name of the output file produced by the linker. The default output name is a.out under Unix and camlprog.exe under Windows. **_.cmi_** files are intermediate (interface) files which are compiled forms of the **_.ml_** file. **_.cmo_** is the	object file (bytecode). .cmx is produced by ocamlopt (the native-code compiler). Main output files of ocamlopt is .o but ocamlopt also produce it.
+
+**ocamlc** (bytecode compiler) implementation command.
+```
+$ ocamlc -o filename filename.ml
+$ ocamlrun filename
+```
+
+**ocamlopt** (native code compiler) implementation command.
+```
+$ ocamlopt -o filename filname.ml
+$ ./filename
+```
+In Microsoft Windows system, OCaml commands can be found inside **C:\Users\username\AppData\Roaming\OCamlPro\OCPWin\4.01.0+ocp1-full-mingw64-20160113\bin** folder.
+
+Reference : https://caml.inria.fr/pub/docs/manual-ocaml/native.html, 
+
 ## GitHub notes
 
 Clone the current GitHub remote repository contents into local machine.
