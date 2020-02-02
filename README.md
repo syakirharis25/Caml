@@ -80,6 +80,7 @@ Reference : https://caml.inria.fr/pub/docs/manual-ocaml/native.html,
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Caml.git
+$ cdCaml/
 $ git remote -v
 $ git status
 ```
