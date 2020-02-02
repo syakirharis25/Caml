@@ -11,7 +11,7 @@ My works related to Categorical Abstract Machine Language (Caml) programming lan
 6. [GitHub notes.](#github)
 
 <a name="introduction"></a>
-## Introduction
+## 1. Introduction.
 <img src="Caml-1.gif" height="50"> 
 
 Caml is a general-purpose programming language, designed with program safety and reliability in mind. It is very expressive, yet easy to learn and use. Caml supports functional, imperative, and object-oriented programming styles. It has been developed and distributed by INRIA, a French research institute in computer science and applied mathematics, since 1985. Caml comes from ML and CAM which is the categorical abstract machine: a virtual machine inspired by Cartesian closed categories.
@@ -26,7 +26,7 @@ OCaml also known as Objective Caml is the main implementation of the Caml progra
 Institut national de recherche en informatique et en automatique (Inria), in English, The National Institute for Research in Computer Science and Automation, is a French national research institution focusing on computer science and applied mathematics. It was created under the name Institut de recherche en informatique et en automatique (IRIA) in 1967 at Rocquencourt near Paris, part of Plan Calcul,  French governmental program to promote a national or European computer industry and associated research and education activities. Its first site was the historical premises of SHAPE (central command of NATO military forces). In 1979 IRIA became INRIA. Since 2011, it has been styled Inria. Inria is a Public Scientific and Technical Research Establishment (EPST) under the double supervision of the French Ministry of National Education, Advanced Instruction and Research and the Ministry of Economy, Finance and Industry.
 
 <a name="references"></a>
-## Official references websites
+## 2. Official references websites.
 Official Caml website : https://caml.inria.fr <br />
 Official OCaml website : https://ocaml.org <br />
 Official Inria website : https://www.inria.fr
@@ -40,7 +40,7 @@ Online OCaml playground : https://try.ocamlpro.com
 Caml and OCaml was created by Xavier Leroy : https://github.com/xavierleroy, https://xavierleroy.org
 
 <a name=location></a>
-## OCaml location
+## 3. OCaml location.
 
 To check the location of where OCaml installed in the machine, type this code.
 ```
@@ -48,7 +48,7 @@ $ which ocaml
 ```
 
 <a name="version"></a>
-## OCaml version
+## 4. OCaml version.
 
 To check the version of OCaml installed in the machine, type this code.
 ```
@@ -56,7 +56,7 @@ $ ocaml -version
 ```
 
 <a name="compiler"></compiler>
-## OCaml compiler
+## 5. OCaml compiler.
 **ocamlc** is the bytecode compiler, and **ocamlopt** is the native code compiler. If you don't know which one to use, use ocamlopt since it provides standalone executables that are normally faster than bytecode. The **-o** command specify the name of the output file produced by the linker. The default output name is **_a.out_** under Unix and **_camlprog.exe_** under Windows. **_.cmi_** files are intermediate (interface) files which are compiled forms of the **_.ml_** file. **_.cmo_** is the	object file (bytecode). **_.cmx_** is produced by ocamlopt (the native-code compiler). Main output files of ocamlopt is **_.o_** but ocamlopt also produce it.
 
 **ocamlc** (bytecode compiler) implementation command.
@@ -76,7 +76,7 @@ In Microsoft Windows system, OCaml commands can be found inside **C:\Users\usern
 Reference : https://caml.inria.fr/pub/docs/manual-ocaml/native.html, 
 
 <a name="github"></a>
-## GitHub notes
+## 6. GitHub notes.
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Caml.git
