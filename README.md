@@ -9,6 +9,7 @@ My works related to Categorical Abstract Machine Language (Caml) programming lan
 4. [OCaml version.](#version)
 5. [OCaml compiler.](#compiler)
 6. [GitHub notes.](#github)
+7. [GitHub repository calculation.](#calculation)
 
 <a name="introduction"></a>
 ## 1. Introduction.
@@ -80,7 +81,7 @@ Reference : https://caml.inria.fr/pub/docs/manual-ocaml/native.html,
 Clone the current GitHub remote repository contents into local machine.
 ```
 $ git clone https://github.com/syakirharis25/Caml.git
-$ cdCaml/
+$ cd Caml/
 $ git remote -v
 $ git status
 ```
@@ -109,3 +110,20 @@ c
 ```
 
 Refer to https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet for GitHub markdown formatting.
+
+<a name="calculation"></a>
+## 7. GitHub repository calculation.
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Markdown                         1             23              0             88
+SVG                              1              0              0             73
+OCaml                            1              0              0              1
+-------------------------------------------------------------------------------
+SUM:                             3             23              0            162
+-------------------------------------------------------------------------------
+```
+Refer to : https://github.com/syakirharis25/cloc
+
+adding GitHub repository calculation.
